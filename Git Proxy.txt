@@ -1,1 +1,1 @@
-git config --global http.proxy http://1265752:Code1%402017@proxy.tcs.com:8080
+git config --global http.proxy http://1265752:Code2%402017@proxy.tcs.com:8080
