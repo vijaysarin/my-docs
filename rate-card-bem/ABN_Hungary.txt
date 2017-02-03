@@ -1,0 +1,175 @@
+a = "{
+	"requestId": "609ec798-c28b-42d0-a83c-63d53c11c1ed",
+	"clientHttpStatus": {
+		"statusCode": 200,
+		"status": "OK"
+	},
+	"clientResponse": {
+		"deeMsgCode": 2029,
+		"deeMsg": "Active Quote Successfully loaded",
+		"deeMsgSeverity": 0
+	},
+	"clientData": {
+		"quoteId": 10,
+		"duration": [{
+			"timeperiod": "6 Months",
+			"contractStartDate": 1486924200000,
+			"contractEndDate": 1502562599000,
+			"contractDurationInDays": "181 Day(s)",
+			"NonNegotiableComponentsBreakUp": {
+				"nonNegotiableCharges": {
+					"projectedNetworkingCharge": 59.51,
+					"projectedAMEOancillary": 59.51,
+					"projectedAMEOPool": 59.51
+				},
+				"totalOfNonNegotiableCharges": 178.53,
+				"totalOfNonNegotiableChargesWithGST": 196.383,
+				"gst": 17.852999999999998
+			},
+			"offers": [{
+				"quoteOfferId": 24,
+				"retailerId": 12,
+				"retailerName": "HUNGRY JACKS PTY LTD",
+				"dmaApplicable": "No",
+				"dmaCharge": 0.0,
+				"offerRate": {
+					"offerTotal": 12716.75,
+					"average": 21.19,
+					"currencySymbol": "$",
+					"offerStartDate": 1485777826720,
+					"offerEndDate": 1486209826720,
+					"gst": 1271.675048828125,
+					"offerTotalWithGst": 13988.4248046875,
+					"offerValid": true,
+					"energyUnit": "MWh",
+					"daysLeft": {
+						"approximateDays": "4 Day(s)",
+						"actualDays": "5,32,29"
+					},
+					"rateBreakUp": {
+						"charges": [{
+							"name": "EnergyFees",
+							"percentage": 66.62581859922669,
+							"value": 8472.6357421875
+						}, {
+							"name": "MeteringFees",
+							"percentage": 0.7799014917144381,
+							"value": 99.17808532714844
+						}, {
+							"name": "RenewableFees",
+							"percentage": 31.424427359513896,
+							"value": 3996.164306640625
+						}, {
+							"name": "RetailerServiceFees",
+							"percentage": 1.1698521607782262,
+							"value": 148.76712036132812
+						}, {
+							"name": "DmaAppliedMeteringFees",
+							"percentage": 0.0,
+							"value": 0.0
+						}]
+					}
+				}
+			}, {
+				"quoteOfferId": 22,
+				"retailerId": 2,
+				"retailerName": "AGL ENERGY LIMITED",
+				"dmaApplicable": "No",
+				"dmaCharge": 0.0,
+				"offerRate": {
+					"offerTotal": 20118.33,
+					"average": 33.53,
+					"currencySymbol": "$",
+					"offerStartDate": 1485777826720,
+					"offerEndDate": 1486037026720,
+					"gst": 2011.8330078125,
+					"offerTotalWithGst": 22130.1640625,
+					"offerValid": true,
+					"energyUnit": "MWh",
+					"daysLeft": {
+						"approximateDays": "2 Day(s)",
+						"actualDays": "5,32,29"
+					},
+					"rateBreakUp": {
+						"charges": [{
+							"name": "EnergyFees",
+							"percentage": 77.03396106123878,
+							"value": 15497.9462890625
+						}, {
+							"name": "MeteringFees",
+							"percentage": 0.0616217197991441,
+							"value": 12.397260665893555
+						}, {
+							"name": "RenewableFees",
+							"percentage": 22.842794723266447,
+							"value": 4595.5888671875
+						}, {
+							"name": "RetailerServiceFees",
+							"percentage": 0.0616217197991441,
+							"value": 12.397260665893555
+						}, {
+							"name": "DmaAppliedMeteringFees",
+							"percentage": 0.0,
+							"value": 0.0
+						}]
+					}
+				}
+			}, {
+				"quoteOfferId": 23,
+				"retailerId": 5,
+				"retailerName": "ALINTA ENERGY RETAIL SALES PTY. LTD.",
+				"dmaApplicable": "No",
+				"dmaCharge": 0.0,
+				"offerRate": {
+					"offerTotal": 20837.32,
+					"average": 34.73,
+					"currencySymbol": "$",
+					"offerStartDate": 1485777826720,
+					"offerEndDate": 1486123426720,
+					"gst": 2083.73193359375,
+					"offerTotalWithGst": 22921.052734375,
+					"offerValid": true,
+					"energyUnit": "MWh",
+					"daysLeft": {
+						"approximateDays": "3 Day(s)",
+						"actualDays": "5,32,29"
+					},
+					"rateBreakUp": {
+						"charges": [{
+							"name": "EnergyFees",
+							"percentage": 78.5340329438363,
+							"value": 16364.384765625
+						}, {
+							"name": "MeteringFees",
+							"percentage": 0.05949547652052195,
+							"value": 12.397260665893555
+						}, {
+							"name": "RenewableFees",
+							"percentage": 21.34697713490781,
+							"value": 4448.13720703125
+						}, {
+							"name": "RetailerServiceFees",
+							"percentage": 0.05949547652052195,
+							"value": 12.397260665893555
+						}, {
+							"name": "DmaAppliedMeteringFees",
+							"percentage": 0.0,
+							"value": 0.0
+						}]
+					}
+				}
+			}]
+		}],
+		"siteProfiles": [{
+			"siteId": 4,
+			"siteName": "116-158 George St, Hornsby NSW 2077",
+			"stateId": 1,
+			"stateCode": "NSW"
+		}],
+		"loadProfile": {
+			"peak": 300.0,
+			"offPeak": 200.0,
+			"shoulder": 100.0
+		}
+	}}
+"
